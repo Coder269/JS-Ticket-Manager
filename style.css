@@ -1,0 +1,60 @@
+      body {
+        background-color: burlywood;
+      }
+
+      #message {
+        color: red;
+        background-color:gold;
+        font-weight: bold;
+      }
+      
+      .content {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .colonne
+      {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #form input,
+      #form label,
+      #form button {
+        margin: 10px;
+      }
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+      h2 {
+        text-decoration: underline;
+      }
+
+      .flex {
+        margin: 20px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: blanchedalmond;
+      }
+      .flex h3, .flex label, .flex button
+      {
+          margin: 10px;
+      }
+      .flex label {
+        font-style: italic;
+        text-align: center;
+      }
+      h3 {
+        color: red;
+      }
